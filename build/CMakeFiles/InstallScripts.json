@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/cmake_install.cmake",
+		"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/_deps/freeglut-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

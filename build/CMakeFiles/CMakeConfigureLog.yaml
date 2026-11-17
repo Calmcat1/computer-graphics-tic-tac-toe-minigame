@@ -1,0 +1,2105 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineSystem.cmake:220 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files\\CMake\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 11/15/2026 11:31:17 PM.
+      
+      Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\4.5.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\4.5.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\4.5.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:03.22
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/4.5.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:105 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link.com"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link.exe"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Admin/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Admin/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Admin/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/mt.com"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/mt.exe"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/mt.com"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/mt.exe"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/mt"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Admin/AppData/Roaming/npm/mt.com"
+      - "C:/Users/Admin/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/Admin/AppData/Roaming/npm/mt"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/mt.com"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/mt.exe"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Windows-MSVC.cmake:596 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Windows-MSVC.cmake:569 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/TicTacToeProject/bin/"
+      - "C:/Program Files (x86)/TicTacToeProject/sbin/"
+      - "C:/Program Files (x86)/TicTacToeProject/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/rc.com"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/rc.exe"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/rc.com"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/rc.exe"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/rc"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Admin/AppData/Roaming/npm/rc.com"
+      - "C:/Users/Admin/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/Admin/AppData/Roaming/npm/rc"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/rc.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/rc.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/rc"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/rc.com"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/rc.exe"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/TicTacToeProject/bin/rc.com"
+      - "C:/Program Files (x86)/TicTacToeProject/bin/rc.exe"
+      - "C:/Program Files (x86)/TicTacToeProject/bin/rc"
+      - "C:/Program Files (x86)/TicTacToeProject/sbin/rc.com"
+      - "C:/Program Files (x86)/TicTacToeProject/sbin/rc.exe"
+      - "C:/Program Files (x86)/TicTacToeProject/sbin/rc"
+      - "C:/Program Files (x86)/TicTacToeProject/rc.com"
+      - "C:/Program Files (x86)/TicTacToeProject/rc.exe"
+      - "C:/Program Files (x86)/TicTacToeProject/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TicTacToeProject"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/TicTacToeProject"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-433r4a"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-433r4a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-433r4a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a552b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:31:21 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-433r4a\\cmTC_a552b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-433r4a\\Debug\\".
+          Creating directory "cmTC_a552b.dir\\Debug\\cmTC_a552b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a552b.dir\\Debug\\cmTC_a552b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a552b.dir\\Debug\\cmTC_a552b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_a552b.dir\\Debug\\\\" /Fd"cmTC_a552b.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.5\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_a552b.dir\\Debug\\\\" /Fd"cmTC_a552b.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.5\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-433r4a\\Debug\\cmTC_a552b.exe" /INCREMENTAL /ILK:"cmTC_a552b.dir\\Debug\\cmTC_a552b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-433r4a/Debug/cmTC_a552b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-433r4a/Debug/cmTC_a552b.lib" /MACHINE:X64  /machine:x64 cmTC_a552b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a552b.vcxproj -> C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-433r4a\\Debug\\cmTC_a552b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a552b.dir\\Debug\\cmTC_a552b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a552b.dir\\Debug\\cmTC_a552b.tlog\\cmTC_a552b.lastbuildstate".
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-433r4a\\cmTC_a552b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.94
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)(\\.exe)?"?( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-433r4a\\Debug\\cmTC_a552b.exe" /INCREMENTAL /ILK:"cmTC_a552b.dir\\Debug\\cmTC_a552b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-433r4a/Debug/cmTC_a552b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-433r4a/Debug/cmTC_a552b.lib" /MACHINE:X64  /machine:x64 cmTC_a552b.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/ExternalProject/shared_internal_commands.cmake:938 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/FetchContent.cmake:1703 (_ep_add_download_command)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/FetchContent.cmake:1620 (__FetchContent_populateDirect)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/FetchContent.cmake:2160:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/FetchContent.cmake:2160 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/FetchContent.cmake:2401 (__FetchContent_Populate)"
+      - "CMakeLists.txt:20 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/TicTacToeProject/bin/"
+      - "C:/Program Files (x86)/TicTacToeProject/sbin/"
+      - "C:/Program Files (x86)/TicTacToeProject/"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/git.cmd.com"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/git.cmd.exe"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/git.cmd.com"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/git.cmd.exe"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/Admin/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/Admin/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Roaming/npm/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/TicTacToeProject/bin/git.cmd.com"
+      - "C:/Program Files (x86)/TicTacToeProject/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/TicTacToeProject/bin/git.cmd"
+      - "C:/Program Files (x86)/TicTacToeProject/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/TicTacToeProject/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/TicTacToeProject/sbin/git.cmd"
+      - "C:/Program Files (x86)/TicTacToeProject/git.cmd.com"
+      - "C:/Program Files (x86)/TicTacToeProject/git.cmd.exe"
+      - "C:/Program Files (x86)/TicTacToeProject/git.cmd"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/Admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/git.com"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/git.exe"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git"
+      - "C:/Program Files/dotnet/git.com"
+      - "C:/Program Files/dotnet/git.exe"
+      - "C:/Program Files/dotnet/git"
+      - "C:/Program Files/nodejs/git.com"
+      - "C:/Program Files/nodejs/git.exe"
+      - "C:/Program Files/nodejs/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TicTacToeProject"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/TicTacToeProject"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:2 (PROJECT)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TicTacToeProject"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/TicTacToeProject"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 11/15/2026 11:31:31 PM.
+      
+      Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\4.5.0\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\4.5.0\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\4.5.0\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.84
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/4.5.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:105 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:2 (PROJECT)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Admin/AppData/Roaming/npm/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/TicTacToeProject/bin/"
+      - "C:/Program Files (x86)/TicTacToeProject/sbin/"
+      - "C:/Program Files (x86)/TicTacToeProject/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link.com"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link.exe"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Admin/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Admin/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Admin/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/lld-link.com"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/lld-link.exe"
+      - "C:/Users/Admin/AppData/Local/Android/Sdk/platform-tools/lld-link"
+      - "C:/Program Files/bin/lld-link.com"
+      - "C:/Program Files/bin/lld-link.exe"
+      - "C:/Program Files/bin/lld-link"
+      - "C:/Program Files/sbin/lld-link.com"
+      - "C:/Program Files/sbin/lld-link.exe"
+      - "C:/Program Files/sbin/lld-link"
+      - "C:/Program Files/lld-link.com"
+      - "C:/Program Files/lld-link.exe"
+      - "C:/Program Files/lld-link"
+      - "C:/Program Files (x86)/bin/lld-link.com"
+      - "C:/Program Files (x86)/bin/lld-link.exe"
+      - "C:/Program Files (x86)/bin/lld-link"
+      - "C:/Program Files (x86)/sbin/lld-link.com"
+      - "C:/Program Files (x86)/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/sbin/lld-link"
+      - "C:/Program Files (x86)/lld-link.com"
+      - "C:/Program Files (x86)/lld-link.exe"
+      - "C:/Program Files (x86)/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/CMake/sbin/lld-link.com"
+      - "C:/Program Files/CMake/sbin/lld-link.exe"
+      - "C:/Program Files/CMake/sbin/lld-link"
+      - "C:/Program Files/CMake/lld-link.com"
+      - "C:/Program Files/CMake/lld-link.exe"
+      - "C:/Program Files/CMake/lld-link"
+      - "C:/Program Files (x86)/TicTacToeProject/bin/lld-link.com"
+      - "C:/Program Files (x86)/TicTacToeProject/bin/lld-link.exe"
+      - "C:/Program Files (x86)/TicTacToeProject/bin/lld-link"
+      - "C:/Program Files (x86)/TicTacToeProject/sbin/lld-link.com"
+      - "C:/Program Files (x86)/TicTacToeProject/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/TicTacToeProject/sbin/lld-link"
+      - "C:/Program Files (x86)/TicTacToeProject/lld-link.com"
+      - "C:/Program Files (x86)/TicTacToeProject/lld-link.exe"
+      - "C:/Program Files (x86)/TicTacToeProject/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Admin\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TicTacToeProject"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/TicTacToeProject"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-wupwen"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-wupwen"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-wupwen'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bc371.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:31:34 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wupwen\\cmTC_bc371.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wupwen\\Debug\\".
+          Creating directory "cmTC_bc371.dir\\Debug\\cmTC_bc371.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bc371.dir\\Debug\\cmTC_bc371.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bc371.dir\\Debug\\cmTC_bc371.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bc371.dir\\Debug\\\\" /Fd"cmTC_bc371.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.5\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bc371.dir\\Debug\\\\" /Fd"cmTC_bc371.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.5\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wupwen\\Debug\\cmTC_bc371.exe" /INCREMENTAL /ILK:"cmTC_bc371.dir\\Debug\\cmTC_bc371.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-wupwen/Debug/cmTC_bc371.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-wupwen/Debug/cmTC_bc371.lib" /MACHINE:X64  /machine:x64 cmTC_bc371.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_bc371.vcxproj -> C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wupwen\\Debug\\cmTC_bc371.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bc371.dir\\Debug\\cmTC_bc371.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bc371.dir\\Debug\\cmTC_bc371.tlog\\cmTC_bc371.lastbuildstate".
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wupwen\\cmTC_bc371.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.83
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)(\\.exe)?"?( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wupwen\\Debug\\cmTC_bc371.exe" /INCREMENTAL /ILK:"cmTC_bc371.dir\\Debug\\cmTC_bc371.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-wupwen/Debug/cmTC_bc371.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-wupwen/Debug/cmTC_bc371.lib" /MACHINE:X64  /machine:x64 cmTC_bc371.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:473 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-jgo9wk"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-jgo9wk"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-jgo9wk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bc5ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:31:38 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgo9wk\\cmTC_bc5ed.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgo9wk\\Debug\\".
+          Creating directory "cmTC_bc5ed.dir\\Debug\\cmTC_bc5ed.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bc5ed.dir\\Debug\\cmTC_bc5ed.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bc5ed.dir\\Debug\\cmTC_bc5ed.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bc5ed.dir\\Debug\\\\" /Fd"cmTC_bc5ed.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgo9wk\\HAVE_SYS_TYPES_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          HAVE_SYS_TYPES_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bc5ed.dir\\Debug\\\\" /Fd"cmTC_bc5ed.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgo9wk\\HAVE_SYS_TYPES_H.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgo9wk\\Debug\\cmTC_bc5ed.exe" /INCREMENTAL /ILK:"cmTC_bc5ed.dir\\Debug\\cmTC_bc5ed.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-jgo9wk/Debug/cmTC_bc5ed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-jgo9wk/Debug/cmTC_bc5ed.lib" /MACHINE:X64  /machine:x64 cmTC_bc5ed.dir\\Debug\\HAVE_SYS_TYPES_H.obj
+          cmTC_bc5ed.vcxproj -> C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgo9wk\\Debug\\cmTC_bc5ed.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bc5ed.dir\\Debug\\cmTC_bc5ed.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bc5ed.dir\\Debug\\cmTC_bc5ed.tlog\\cmTC_bc5ed.lastbuildstate".
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgo9wk\\cmTC_bc5ed.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.89
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:474 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-pbqw4b"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-pbqw4b"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-pbqw4b'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5a60d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:31:42 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbqw4b\\cmTC_5a60d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbqw4b\\Debug\\".
+          Creating directory "cmTC_5a60d.dir\\Debug\\cmTC_5a60d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5a60d.dir\\Debug\\cmTC_5a60d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5a60d.dir\\Debug\\cmTC_5a60d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5a60d.dir\\Debug\\\\" /Fd"cmTC_5a60d.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbqw4b\\HAVE_UNISTD_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          HAVE_UNISTD_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5a60d.dir\\Debug\\\\" /Fd"cmTC_5a60d.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbqw4b\\HAVE_UNISTD_H.c"
+        C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbqw4b\\HAVE_UNISTD_H.c(2,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbqw4b\\cmTC_5a60d.vcxproj]
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbqw4b\\cmTC_5a60d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbqw4b\\cmTC_5a60d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbqw4b\\HAVE_UNISTD_H.c(2,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pbqw4b\\cmTC_5a60d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:02.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:475 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/time.h"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-3segoi"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-3segoi"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-3segoi'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1a7ab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:31:45 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3segoi\\cmTC_1a7ab.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3segoi\\Debug\\".
+          Creating directory "cmTC_1a7ab.dir\\Debug\\cmTC_1a7ab.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1a7ab.dir\\Debug\\cmTC_1a7ab.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1a7ab.dir\\Debug\\cmTC_1a7ab.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_1a7ab.dir\\Debug\\\\" /Fd"cmTC_1a7ab.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3segoi\\HAVE_SYS_TIME_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          HAVE_SYS_TIME_H.c
+        C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3segoi\\HAVE_SYS_TIME_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3segoi\\cmTC_1a7ab.vcxproj]
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_1a7ab.dir\\Debug\\\\" /Fd"cmTC_1a7ab.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3segoi\\HAVE_SYS_TIME_H.c"
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3segoi\\cmTC_1a7ab.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3segoi\\cmTC_1a7ab.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3segoi\\HAVE_SYS_TIME_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3segoi\\cmTC_1a7ab.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:02.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:476 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdbool.h"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-a0xi02"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-a0xi02"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-a0xi02'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_faf6c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:31:49 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0xi02\\cmTC_faf6c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0xi02\\Debug\\".
+          Creating directory "cmTC_faf6c.dir\\Debug\\cmTC_faf6c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_faf6c.dir\\Debug\\cmTC_faf6c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_faf6c.dir\\Debug\\cmTC_faf6c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_faf6c.dir\\Debug\\\\" /Fd"cmTC_faf6c.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0xi02\\HAVE_STDBOOL_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          HAVE_STDBOOL_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_faf6c.dir\\Debug\\\\" /Fd"cmTC_faf6c.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0xi02\\HAVE_STDBOOL_H.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0xi02\\Debug\\cmTC_faf6c.exe" /INCREMENTAL /ILK:"cmTC_faf6c.dir\\Debug\\cmTC_faf6c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-a0xi02/Debug/cmTC_faf6c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-a0xi02/Debug/cmTC_faf6c.lib" /MACHINE:X64  /machine:x64 cmTC_faf6c.dir\\Debug\\HAVE_STDBOOL_H.obj
+          cmTC_faf6c.vcxproj -> C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0xi02\\Debug\\cmTC_faf6c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_faf6c.dir\\Debug\\cmTC_faf6c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_faf6c.dir\\Debug\\cmTC_faf6c.tlog\\cmTC_faf6c.lastbuildstate".
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0xi02\\cmTC_faf6c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.86
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:477 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/param.h"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-obs9v7"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-obs9v7"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-obs9v7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5e1a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:31:52 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obs9v7\\cmTC_5e1a9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obs9v7\\Debug\\".
+          Creating directory "cmTC_5e1a9.dir\\Debug\\cmTC_5e1a9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5e1a9.dir\\Debug\\cmTC_5e1a9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5e1a9.dir\\Debug\\cmTC_5e1a9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5e1a9.dir\\Debug\\\\" /Fd"cmTC_5e1a9.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obs9v7\\HAVE_SYS_PARAM_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          HAVE_SYS_PARAM_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5e1a9.dir\\Debug\\\\" /Fd"cmTC_5e1a9.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obs9v7\\HAVE_SYS_PARAM_H.c"
+        C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obs9v7\\HAVE_SYS_PARAM_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obs9v7\\cmTC_5e1a9.vcxproj]
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obs9v7\\cmTC_5e1a9.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obs9v7\\cmTC_5e1a9.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obs9v7\\HAVE_SYS_PARAM_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obs9v7\\cmTC_5e1a9.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:02.30
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:478 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/ioctl.h"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-wzm6ts"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-wzm6ts"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-wzm6ts'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d1d2b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:31:56 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzm6ts\\cmTC_d1d2b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzm6ts\\Debug\\".
+          Creating directory "cmTC_d1d2b.dir\\Debug\\cmTC_d1d2b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d1d2b.dir\\Debug\\cmTC_d1d2b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d1d2b.dir\\Debug\\cmTC_d1d2b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d1d2b.dir\\Debug\\\\" /Fd"cmTC_d1d2b.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzm6ts\\HAVE_SYS_IOCTL_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          HAVE_SYS_IOCTL_H.c
+        C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzm6ts\\HAVE_SYS_IOCTL_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzm6ts\\cmTC_d1d2b.vcxproj]
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d1d2b.dir\\Debug\\\\" /Fd"cmTC_d1d2b.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzm6ts\\HAVE_SYS_IOCTL_H.c"
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzm6ts\\cmTC_d1d2b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzm6ts\\cmTC_d1d2b.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzm6ts\\HAVE_SYS_IOCTL_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wzm6ts\\cmTC_d1d2b.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:02.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:479 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file fcntl.h"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-cnhj8b"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-cnhj8b"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-cnhj8b'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bf67a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:31:59 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnhj8b\\cmTC_bf67a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnhj8b\\Debug\\".
+          Creating directory "cmTC_bf67a.dir\\Debug\\cmTC_bf67a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bf67a.dir\\Debug\\cmTC_bf67a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bf67a.dir\\Debug\\cmTC_bf67a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bf67a.dir\\Debug\\\\" /Fd"cmTC_bf67a.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnhj8b\\HAVE_FCNTL_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          HAVE_FCNTL_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bf67a.dir\\Debug\\\\" /Fd"cmTC_bf67a.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnhj8b\\HAVE_FCNTL_H.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnhj8b\\Debug\\cmTC_bf67a.exe" /INCREMENTAL /ILK:"cmTC_bf67a.dir\\Debug\\cmTC_bf67a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-cnhj8b/Debug/cmTC_bf67a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-cnhj8b/Debug/cmTC_bf67a.lib" /MACHINE:X64  /machine:x64 cmTC_bf67a.dir\\Debug\\HAVE_FCNTL_H.obj
+          cmTC_bf67a.vcxproj -> C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnhj8b\\Debug\\cmTC_bf67a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bf67a.dir\\Debug\\cmTC_bf67a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bf67a.dir\\Debug\\cmTC_bf67a.tlog\\cmTC_bf67a.lastbuildstate".
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnhj8b\\cmTC_bf67a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:480 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file usbhid.h"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-vb50mr"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-vb50mr"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_USBHID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-vb50mr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9624b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:32:02 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vb50mr\\cmTC_9624b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vb50mr\\Debug\\".
+          Creating directory "cmTC_9624b.dir\\Debug\\cmTC_9624b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9624b.dir\\Debug\\cmTC_9624b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9624b.dir\\Debug\\cmTC_9624b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9624b.dir\\Debug\\\\" /Fd"cmTC_9624b.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vb50mr\\HAVE_USBHID_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          HAVE_USBHID_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9624b.dir\\Debug\\\\" /Fd"cmTC_9624b.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vb50mr\\HAVE_USBHID_H.c"
+        C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vb50mr\\HAVE_USBHID_H.c(2,10): fatal  error C1083: Cannot open include file: 'usbhid.h': No such file or directory [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vb50mr\\cmTC_9624b.vcxproj]
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vb50mr\\cmTC_9624b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vb50mr\\cmTC_9624b.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vb50mr\\HAVE_USBHID_H.c(2,10): fatal  error C1083: Cannot open include file: 'usbhid.h': No such file or directory [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vb50mr\\cmTC_9624b.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:02.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CheckFunctionExists.cmake:144 (try_compile)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:481 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-y3xf8s"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-y3xf8s"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-y3xf8s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bf4fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:32:06 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\cmTC_bf4fa.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\Debug\\".
+          Creating directory "cmTC_bf4fa.dir\\Debug\\cmTC_bf4fa.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bf4fa.dir\\Debug\\cmTC_bf4fa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bf4fa.dir\\Debug\\cmTC_bf4fa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bf4fa.dir\\Debug\\\\" /Fd"cmTC_bf4fa.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bf4fa.dir\\Debug\\\\" /Fd"cmTC_bf4fa.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\Debug\\cmTC_bf4fa.exe" /INCREMENTAL /ILK:"cmTC_bf4fa.dir\\Debug\\cmTC_bf4fa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-y3xf8s/Debug/cmTC_bf4fa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-y3xf8s/Debug/cmTC_bf4fa.lib" /MACHINE:X64  /machine:x64 cmTC_bf4fa.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol gettimeofday referenced in function main [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\cmTC_bf4fa.vcxproj]
+        C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\Debug\\cmTC_bf4fa.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\cmTC_bf4fa.vcxproj]
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\cmTC_bf4fa.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\cmTC_bf4fa.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol gettimeofday referenced in function main [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\cmTC_bf4fa.vcxproj]
+          C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\Debug\\cmTC_bf4fa.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3xf8s\\cmTC_bf4fa.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:02.73
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CheckFunctionExists.cmake:144 (try_compile)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:482 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for XParseGeometry"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-ma3h4z"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-ma3h4z"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_XPARSEGEOMETRY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-ma3h4z'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_290a8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:32:09 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\cmTC_290a8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\Debug\\".
+          Creating directory "cmTC_290a8.dir\\Debug\\cmTC_290a8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_290a8.dir\\Debug\\cmTC_290a8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_290a8.dir\\Debug\\cmTC_290a8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=XParseGeometry /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_290a8.dir\\Debug\\\\" /Fd"cmTC_290a8.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=XParseGeometry /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_290a8.dir\\Debug\\\\" /Fd"cmTC_290a8.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\Debug\\cmTC_290a8.exe" /INCREMENTAL /ILK:"cmTC_290a8.dir\\Debug\\cmTC_290a8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-ma3h4z/Debug/cmTC_290a8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-ma3h4z/Debug/cmTC_290a8.lib" /MACHINE:X64  /machine:x64 cmTC_290a8.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol XParseGeometry referenced in function main [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\cmTC_290a8.vcxproj]
+        C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\Debug\\cmTC_290a8.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\cmTC_290a8.vcxproj]
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\cmTC_290a8.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\cmTC_290a8.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol XParseGeometry referenced in function main [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\cmTC_290a8.vcxproj]
+          C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\Debug\\cmTC_290a8.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ma3h4z\\cmTC_290a8.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:02.70
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:490 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-ftwaze"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-ftwaze"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-ftwaze'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_22a93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:32:13 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftwaze\\cmTC_22a93.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftwaze\\Debug\\".
+          Creating directory "cmTC_22a93.dir\\Debug\\cmTC_22a93.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_22a93.dir\\Debug\\cmTC_22a93.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_22a93.dir\\Debug\\cmTC_22a93.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_22a93.dir\\Debug\\\\" /Fd"cmTC_22a93.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftwaze\\HAVE_STDINT_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          HAVE_STDINT_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_22a93.dir\\Debug\\\\" /Fd"cmTC_22a93.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftwaze\\HAVE_STDINT_H.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftwaze\\Debug\\cmTC_22a93.exe" /INCREMENTAL /ILK:"cmTC_22a93.dir\\Debug\\cmTC_22a93.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-ftwaze/Debug/cmTC_22a93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-ftwaze/Debug/cmTC_22a93.lib" /MACHINE:X64  /machine:x64 cmTC_22a93.dir\\Debug\\HAVE_STDINT_H.obj
+          cmTC_22a93.vcxproj -> C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftwaze\\Debug\\cmTC_22a93.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_22a93.dir\\Debug\\cmTC_22a93.tlog\\unsuccessfulbuild".
+          Touching "cmTC_22a93.dir\\Debug\\cmTC_22a93.tlog\\cmTC_22a93.lastbuildstate".
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftwaze\\cmTC_22a93.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.86
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "build/_deps/freeglut-src/CMakeLists.txt:491 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-jf7kzq"
+      binary: "C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-jf7kzq"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-jf7kzq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_277a3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/15/2026 11:32:17 PM.
+        
+        Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jf7kzq\\cmTC_277a3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jf7kzq\\Debug\\".
+          Creating directory "cmTC_277a3.dir\\Debug\\cmTC_277a3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_277a3.dir\\Debug\\cmTC_277a3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_277a3.dir\\Debug\\cmTC_277a3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_277a3.dir\\Debug\\\\" /Fd"cmTC_277a3.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jf7kzq\\HAVE_INTTYPES_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          HAVE_INTTYPES_H.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_277a3.dir\\Debug\\\\" /Fd"cmTC_277a3.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jf7kzq\\HAVE_INTTYPES_H.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jf7kzq\\Debug\\cmTC_277a3.exe" /INCREMENTAL /ILK:"cmTC_277a3.dir\\Debug\\cmTC_277a3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-jf7kzq/Debug/cmTC_277a3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/CMakeScratch/TryCompile-jf7kzq/Debug/cmTC_277a3.lib" /MACHINE:X64  /machine:x64 cmTC_277a3.dir\\Debug\\HAVE_INTTYPES_H.obj
+          cmTC_277a3.vcxproj -> C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jf7kzq\\Debug\\cmTC_277a3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_277a3.dir\\Debug\\cmTC_277a3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_277a3.dir\\Debug\\cmTC_277a3.tlog\\cmTC_277a3.lastbuildstate".
+        Done Building Project "C:\\Users\\Admin\\Desktop\\ComputerGraphics-tic-tac-toe-v2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jf7kzq\\cmTC_277a3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.90
+        
+      exitCode: 0
+...

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_callbacks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_cursor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_ext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_font_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_gamemode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_geometry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_gl2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_input_devices.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_overlay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_spaceball.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_state.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_stroke_mono_roman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_stroke_roman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_structure.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_teapot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_videoresize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_menu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_cursor_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_display_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_ext_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_gamemode_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_init_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_input_devices_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_joystick_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_main_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_menu_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_spaceball_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_state_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_structure_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_window_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_cmap_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\util\xparsegeometry_repl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\include\GL\freeglut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\include\GL\freeglut_ucall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\include\GL\freeglut_ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\include\GL\freeglut_std.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_gl2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_callback_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\fg_teapot_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\mswin\fg_internal_mswin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\src\util\xparsegeometry_repl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\_deps\freeglut-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Admin\Desktop\ComputerGraphics-tic-tac-toe-v2\build\freeglut.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{928D95F0-BF4C-3A60-8C3A-BA042CED3A7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D6D30B65-82D9-3EE3-A412-BD7B18B82D74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

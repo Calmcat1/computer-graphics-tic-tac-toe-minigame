@@ -1,0 +1,7 @@
+C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/TicTacToe_OpenGL.dir
+C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/INSTALL.dir
+C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/_deps/freeglut-build/CMakeFiles/freeglut_static.dir
+C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/_deps/freeglut-build/CMakeFiles/INSTALL.dir
+C:/Users/Admin/Desktop/ComputerGraphics-tic-tac-toe-v2/build/_deps/freeglut-build/CMakeFiles/ALL_BUILD.dir
